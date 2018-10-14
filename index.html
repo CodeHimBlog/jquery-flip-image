@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta charset="UTF-8" />
+<meta content="Free jQuery Plugin to easily Flip any image. The imgFlip helps you to create an awesome image mirror feature in your lightbox, gallery or photo projects." name="description" />
+<!--Living with Adsense-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7089100907045419",
+          enable_page_level_ads: true
+     });
+</script>
+<title> Mirror any Image with jQuery imgFlip Plugin </title>
+
+<!--Material Design Iconic Font-->
+<link rel="stylesheet" href="material-design/css/material-design-iconic-font.css" />
+
+   <!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!--imgFlip Plugin-->
+<script src="js/jquery.imgflip.js"></script>
+
+   <!--imgFlip CSS-->
+<link rel="stylesheet" href="css/imgflip.css" />
+
+<script>
+$(document).ready(function(){
+  
+$(".img-container").imgFlip(); //with default options
+
+ });
+</script>
+
+</head>
+<body>
+
+
+
+
+
+
+<header class="intro">
+      <h1>Mirror any Image with jQuery imgFlip Plugin</h1>
+      <p>
+     imgFlip let's user to easily &amp; smoothly flip any image (both horizontally and vertically). 
+         <br />
+         <br />
+<b> Written in:</b><i> HTML5, CSS3, JS</i><br>
+          <b> Frameworks: </b> <i>  jQuery 3.3.1 &amp; Material-Design-Iconic-Font 2.0  </i>
+      </p>
+<div class="action">
+<a class="btn github" href="#3"> Fork on GiHub </a>
+<a class="btn down" href="#3">Download </a>
+</div>
+</header>
+
+
+<main>
+<article>
+
+<h2> Example of imgFlip to View Flip / Mirror Image </h2>
+
+<!-- Example imgFlip -->
+<div class="img-container">
+<img src="image/boat.jpg" />
+
+</div> <!--//img-container-->
+
+<h2> Main Features </h2>
+   <ul>
+      <li>Fully responsive, customizable and configurable.</li>
+      <li>Options for both vertical and horizontal flip transformation of the image. </li>
+      <li>Show current status about flipped images.</li>
+      <li> Smoothly transformation while flipping.  </li>
+      <li> Material Design Iconic Buttons. </li>
+<li>Individually and also can be used in Gallery, Lightbox and Photo Projects.  </li>
+   <li> Chrome, Safari, Firefox, Opera, IE7+, IOS, Android and windows phone supported. </li>
+      <li> User Friendly and Easy to implement. </li>
+   </ul>
+<div style="margin: 10px; position: relative">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="7782420780"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<h2> What's imgFlip Offer</h2>
+<p>
+It will creates and handle all UI elements, however, provide classes to fully customize with <abbr title="Cascading Stylish Sheet"> CSS</abbr> . 
+You can highly customize this plugin according to your needs. <br />
+It let's you to fully &amp; easily implement image flip feature in your projects.
+</p>
+<h2> How to Implement </h2>
+<p>
+1. Create an image container that has one or more images. 
+</p>
+<pre class="prettyprint lang-html">
+&lt;div class="img-container"&gt;
+&lt;img src="/image-adress.jpg"&gt;
+------------- some other stuff----
+--------
+------------
+&lt;img src="/image-adress.jpg"&gt;
+&lt;/div>
+</pre>
+<p> <b>Note:</b> No need to set class or id for individual image. It will automatically detect all available images within the container. </p>
+<p>
+2. After this, attach the <code> imgFlip() </code> with that container's class or id in document ready function.
+</p>
+
+<pre class="prettyprint lang-js">
+$(document).ready(function(){
+$(".img-container").imgFlip({
+     //options goes here
+  });
+});
+</pre>
+
+<p> All the available options are as follows:</p>
+<pre class="prettyprint lang-js">
+  flipVertical: true, //false to turn it off
+  flipHorizontal : true, //false to turn it off
+  showStatus: true, //false to turn it off
+  hStatus: "You are Viewing Horizontally Mirror Image", //text that will show in status bar when flipped horizontally
+  vStatus: "You are Viewing Vertically Flipped Scene", // status when flipped vertically
+</pre>
+<br />
+
+</article>
+</main>
+
+<!--DEMO ONLY FILES-->
+<link rel="stylesheet" href="docs/demo-only.css" />
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+
+<footer class="credit">
+Coded with <span title="Coffee"></span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+</body>
+</html>
