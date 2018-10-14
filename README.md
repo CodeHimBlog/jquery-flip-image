@@ -1,4 +1,4 @@
-# jquery-flip-image
+# Mirror any Image with jQuery imgFlip 
 imgFlip let's user to easily &amp; smoothly flip any image (both horizontally and vertically). 
 
 Browse: [Live Demo & Using Guide](https://codehimblog.github.io/jquery-flip-image/)
